@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    scrollbar-width: none;
+    background-color: blanchedalmond;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.containerText {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: solid transparent 00px;
+}
+
+.containerLogo {
+    width: 100%;
+    max-width: 250px;
+    max-height: 300px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.titleRust{
+    font-size: 90px;
+    text-align: center;
+    margin: auto;
+}
+
+.subTitleRust{
+    text-align: center;
+}
+
+.textRust {
+    text-align: center;
+}
+
+.containerLogo:hover{
+    transform:scale(1.10);
+    
+}
+
+
+
+
