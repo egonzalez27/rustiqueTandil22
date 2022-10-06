@@ -1,0 +1,4 @@
+Pagina trabajada desde 0 con HTML y CSS, 
+con un comienzo de JavaScript en slide de fotos.
+
+Proximos pasos: Profundizar la parte de JS y utilizar bases de datos.
