@@ -91,7 +91,6 @@ body {
 
 .menuInicio ul li{
     list-style: none;
-    padding: 10px;
 }
 
 .menuInicio ul li a{
@@ -107,7 +106,6 @@ body {
 
 .menuInicio ul li:hover {
     background-color: #f59d1b;
-    border-radius: 5px;
 }
 
 .menuInicio ul li:hover a {
@@ -115,94 +113,113 @@ body {
     font-size: 20px;
 }
 
-    .containerArribaHeader {
-        display: flex;
-        position: sticky;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    
-    .logoRust {
-        min-width: 150px;
-    }
-  
-    .menu{
-        display: none;
-    }
-   
-    .containerMenuInicio {
-        display: flex;
-        position: sticky;
-        justify-content: center;
-        font-size: 10px;
-        border-top: 1px solid #f59d1b;
-        background-color: #1b1f1d;
-    }
-   
-    .menuInicio li:hover {
-        background-color: #f59d1b;
-        color: #1b1f1d;
-        font-size: 20px;
-    }
-    
-    .menuInicio {
-        position: relative;
-        box-shadow: none;
-        left: 0;
-    }
-   
-    .menuInicio li {
-        color: #f59d1b;
-        padding: 10px;
-        border-left: 1px solid #f59d1b;
-        border-right: 1px solid #f59d1b;
-    }
-    
-    .menuInicio li:hover {
-        background-color: #f59d1b;
-        color: #1b1f1d;
-        font-size: 10px;
-    }
-    
-    .menuInicio ul {
-        display: flex;
-    }
-  
-    .containerMenuInicio li {
-        list-style: none;
-    }
-    
+.containerHeader {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
+.logoRust {
+    min-width: 150px;
+}
 
+.menu{
+    display: none;
+}
 
+.containerMenuInicio {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    font-size: 10px;
+    border-top: 1px solid #f59d1b;
+    background-color: #1b1f1d;
+}
 
+.menuInicio li:hover {
+    background-color: #f59d1b;
+    color: #1b1f1d;
+    font-size: 20px;
+}
 
+.menuInicio {
+    position: relative;
+    box-shadow: none;
+    left: 0;
+}
 
+.menuInicio li {
+    color: #f59d1b;
+    padding: 10px;
+    border-left: 1px solid #f59d1b;
+    border-right: 1px solid #f59d1b;
+}
 
+.menuInicio li:hover {
+    background-color: #f59d1b;
+    color: #1b1f1d;
+    font-size: 10px;
+}
 
+.menuInicio ul {
+    display: flex;
+}
 
-
-
+.containerMenuInicio li {
+    list-style: none;
+}
 
 /* -------------FIN HEADER-------------------- */
 
+
+.containerRegistro{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+
+.containerImage {
+    max-height: 75vh;
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    margin: 0 50%;
+    background: #f59d1b;
+    position: absolute;
+}
+
+.imageRegistro{
+    max-width: 100%;
+    max-height: 75vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0;
+    position: absolute;
+}
+
+.imageRegistro img{
+    width: 100%;
+    height: 100%;
+}
 
 
 .containerFormulario {
     background-color: #f59d1b;
     max-height: 75vh;
-    width: 100%;
+    width: 50%;
     height: 75vh;
     display: flex;
-    margin: 0 auto;
+    margin: 0 0;
     position: relative;
 }
 
 .formulario {
     position: absolute;
     width: 100%;
-    height: 450px;
+    height: 75vh;
     padding: 0 1rem;
 }
 
@@ -215,32 +232,31 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 350px;
+    height: 75vh;
 }
 
-._form_field {
+.formField {
     display: flex;
     flex-direction: column;
 }
 
-._form_names {
+.formNames {
     display: flex;
     justify-content: space-evenly;
 }
 
-._form_names input {
+.formNames input {
     width: 90%;
 }
 
-.form_label {
+.formLabel {
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-size: 1rem;
 }
 
-.form_input {
+.formInput {
     width: 70%;
     font-size: x-large;
     background: none;

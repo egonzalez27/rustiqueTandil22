@@ -21,7 +21,7 @@
 
 <body>
   <header>
-    <div class="containerArribaHeader">
+    <div class="containerHeader">
       <div class="logoRust">
         <a href="/index.html" class=""><img src="../assets/images/logo_rust.svg" alt="Rustique Logo"></a>
       </div>
@@ -50,77 +50,81 @@
         </div>
       </div>
     </nav>
-    </header>
-  <div class="_boxPositionForm">
-    <div class="_boxForm">
-    <h1 class="formTitle">Haga su pedido</h1>
-    <form action="#" class="_form">
-      <div class="_form_names">
-        <div class="_form_field">
-          <label for="mts2" class="form_label">Cantidad
-            <input type="number" id="mts2" class="form_input">mts<sup>2</sup>
-          </label>
-        </div>
-        <div class="_form_field">
-          <ul>
-            <label for="color" class="form_label">Color</label>
-            <li>
-              <label for="natural" class="form_label">Natural
-              <input type="radio" name="color" id="natural" class="form_input" checked></label>
-            </li>
-            <li>
-              <label for="rojo" class="form_label">Rojo
-              <input type="radio" name="color" id="rojo" class="form_input"></label>
-            </li>
-            <li>
-              <label for="amarillo" class="form_label">Amarillo
-              <input type="radio" name="color" id="amarillo" class="form_input"></label>
-            </li>
-          </ul>
-          <ul>
-            <label for="pago" class="form_label">Forma de pago</label>
-            <li>
-              <label for="pago" class="form_label">Transferencia o Efectivo
-                <input type="radio" name="pago" id="pago" class="form_input" checked>
-              </label>
-            </li>
-            <li>
-              <label for="pago" class="form_label">Tarjeta de debito
-                <input type="radio" name="pago" id="pago" class="form_input">
-              </label>
-            </li>
-            <li>
-              <label for="pago" class="form_label">Tarjeta de credito
-                <input type="radio" name="pago" id="pago" class="form_input">
-              </label>
-            </li>
-          </ul>
-        </div>
+  </header>
+  <div class="containerCompra">
+    <div class="containerImage">
+      <div class="imageCompra">
+      <img src="\assets\images\imageCompra.jpg" alt="Rustique fabrica de baldosas">
       </div>
-    </form>  
-    <div class="containerBotonBuy">
-      <a href="./pagina5.html"><input type="submit" class="botonBuy" value="Comprar">
-      </a>
     </div>
+    <div class="containerFormulario">
+      <div class="formulario">
+        <h1 class="formTitle">Haga su pedido</h1>
+        <form action="#" class="form">
+          <div class="formNames">
+            <div class="formField">
+              <label for="mts2" class="formLabel">Cantidad
+                <input type="number" id="mts2" class="formInput">mts<sup>2</sup>
+              </label>
+            </div>
+            <div class="formField">
+              <ul>
+                <label for="color" class="formLabel">Color</label>
+                <li>
+                  <label for="natural" class="formLabel">Natural
+                  <input type="radio" name="color" id="natural" class="formInput" checked></label>
+                </li>
+                <li>
+                  <label for="rojo" class="formLabel">Rojo
+                  <input type="radio" name="color" id="rojo" class="formInput"></label>
+                </li>
+                <li>
+                  <label for="amarillo" class="formLabel">Amarillo
+                  <input type="radio" name="color" id="amarillo" class="formInput"></label>
+                </li>
+              </ul>
+              <ul>
+                <label for="pago" class="formLabel">Forma de pago</label>
+                <li>
+                  <label for="pago" class="formLabel">Efectivo<input type="radio" name="pago" id="pago" class="formInput" checked>
+                  </label>
+                </li>
+                <li>
+                  <label for="pago" class="formLabel">Tarjeta de debito<input type="radio" name="pago" id="pago" class="formInput">
+                  </label>
+                </li>
+                <li>
+                  <label for="pago" class="formLabel">Tarjeta de credito<input type="radio" name="pago" id="pago" class="formInput">
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="containerBotonBuy">
+            <a href="./pagina5.html"><input type="submit" class="botonBuy" value="Comprar">
+            </a>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-  <footer>
-    <div class="containerFooter">
-            <div class="containerFooterText">
-              <p class="footerText">
-                Solicita tu presupuesto
-                📥ventasrustique@gmail.com
-                📱 2494 315729
-                📍 Las Malvinas 1860, Tandil.
-                <br>
-                🕝 Lunes a Viernes de 8:30 a 14:30 h.
-                
-                • Rustique •
-                Fábrica y Distribución de pisos y revestimientos
-                
-                Somos Coop. Metalcoop Ltda.
-              </p>
-            </div>
-    </div>
-  </footer>
+    <footer>
+      <div class="containerFooter">
+              <div class="containerFooterText">
+                <p class="footerText">
+                  Solicita tu presupuesto
+                  📥ventasrustique@gmail.com
+                  📱 2494 315729
+                  📍 Las Malvinas 1860, Tandil.
+                  <br>
+                  🕝 Lunes a Viernes de 8:30 a 14:30 h.
+                  
+                  • Rustique •
+                  Fábrica y Distribución de pisos y revestimientos
+                  
+                  Somos Coop. Metalcoop Ltda.
+                </p>
+              </div>
+      </div>
+    </footer>
 </body>

@@ -21,7 +21,7 @@
 
 <body>
   <header>
-    <div class="containerArribaHeader">
+    <div class="containerHeader">
       <div class="logoRust">
         <a href="/index.html" class=""><img src="../assets/images/logo_rust.svg" alt="Rustique Logo"></a>
       </div>
@@ -52,33 +52,39 @@
     </nav>
   </header>
 
-
-  <div class="containerFormulario">
-    <div class="formulario">
-      <h1 class="formularioTitle">Registro</h1>
-      <form action="#" class="_form">
-        <div class="_form_names">
-          <div class="_form_field">
-            <label for="name" class="form_label">Nombre</label>
-            <input type="text" id="name" class="form_input">
+  <div class="containerRegistro">
+    <div class="containerImage">
+      <div class="imageRegistro">
+        <img src="\assets\images\imageRegistro.jpg" alt="Rustique fabrica de baldosas">
+      </div>
+    </div>
+    <div class="containerFormulario">
+      <div class="formulario">
+        <h1 class="formularioTitle">Registro</h1>
+        <form action="#" class="form">
+          <div class="formNames">
+            <div class="formField">
+              <label for="name" class="formLabel">Nombre</label>
+              <input type="text" id="name" class="formInput">
+            </div>
+            <div class="formField">
+              <label for="surname" class="formLabel">Apellido</label>
+              <input type="text" id="surname" class="formInput">
+            </div>
           </div>
-          <div class="_form_field">
-            <label for="surname" class="form_label">Apellido</label>
-            <input type="text" id="surname" class="form_input">
+          <div class="formField">
+            <label for="email" class="formLabel">email</label>
+            <input type="email" id="email" class="formInput">
           </div>
+          <div class="formField">
+            <label for="password" class="formLabel">contraseña</label>
+            <input type="password" id="password" class="formInput">
+          </div>
+          <div class="containerBotonBuy">
+            <a href="./pagina3.html"><input type="submit" class="botonBuy" value="Reservar">
+            </a>
+        </form>
         </div>
-        <div class="_form_field">
-          <label for="email" class="form_label">email</label>
-          <input type="email" id="email" class="form_input">
-        </div>
-        <div class="_form_field">
-          <label for="password" class="form_label">contraseña</label>
-          <input type="password" id="password" class="form_input">
-        </div>
-      </form>  
-      <div class="containerBotonBuy">
-        <a href="./pagina3.html"><input type="submit" class="botonBuy" value="Reservar">
-        </a>
       </div>
     </div>
   </div>
